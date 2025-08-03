@@ -1,7 +1,7 @@
 <h1 align="center">📩 SMS Spam Classifier</h1>
 
 <p align="center">
-  <img src="logo.jpg" alt="SMS Spam Logo" width="720"/>
+  <img src="SMS-Spam-Detection/logo.jpg" alt="SMS Spam Logo" width="720"/>
 </p>
 
 <p align="center">
