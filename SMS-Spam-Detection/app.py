@@ -6,10 +6,10 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 # Load the vectorizer and model from the src folder
-with open("src/vectorizer.pkl", "rb") as f:
+with open("vectorizer.pkl", "rb") as f:
     vectorizer = pickle.load(f)
 
-with open("src/model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 ps = PorterStemmer()
@@ -91,6 +91,7 @@ if st.button("Predict"):
             st.error(f"🚨 This is **SPAM**! ({prob*100:.2f}% confidence)")
         else:
             st.success(f"✅ This is **Not Spam**. ({prob*100:.2f}% confidence)")
+
 
 
 
